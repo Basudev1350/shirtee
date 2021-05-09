@@ -1,4 +1,8 @@
 
+body {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;  
+}
 .caption {
     color: #fff;
   }
@@ -112,7 +116,7 @@
     margin-bottom: 40px;
   }
   .fff1{
-    background-color: #003D5D;
+    background-image: url("../images/Own-Products/green-banner-png-3.png");
     padding-bottom: 70px;
     padding-top: 70px;
     width: 100%;
@@ -120,6 +124,7 @@
     height: 50%;
     margin-bottom: 40px;
     margin-top: 25px;
+    background-repeat: no-repeat;
   }
   .cce{
     background-image: url("../images/Own-Products/Banking2.png");
@@ -129,7 +134,7 @@
     background-size: cover;
   }
   .cce1{
-    background-image: url("../images/Bulk-Order/Mask Group 1@2x.png");
+    background-image: url("../images/Bulk-Order/2840523.jpg");
     padding-bottom: 225px;
     padding-top: 225px;
     width: 100%;
@@ -177,7 +182,7 @@
     display: block;
     color: #000;
     text-align: center;
-    padding: 1px 95px 16px 16px;;
+    padding: 1px 90px 16px 16px;;
     text-decoration: none;
   }
   .c{
@@ -193,7 +198,45 @@
     bottom: -5px;
     top: 45px;
 }
-   
+.cfo{
+  position:relative;
+}
+.cfo::after {
+  content: '';
+  height: 2px;
+  width: 35%;
+  background: #6fa2b6;
+  position: absolute;
+  left: calc(42% - 10%);
+  bottom: -5px;
+  top: 35px;
+}
+.cfo1{
+  position:relative;
+}
+.cfo1::after {
+  content: '';
+  height: 2px;
+  width: 30%;
+  background: #6fa2b6;
+  position: absolute;
+  left: calc(45% - 10%);
+  bottom: -5px;
+  top: 35px;
+}
+.cfo2{
+  position:relative;
+}
+.cfo2::after {
+  content: '';
+  height: 2px;
+  width: 30%;
+  background: #6fa2b6;
+  position: absolute;
+  left: calc(42% - 10%);
+  bottom: -5px;
+  top: 35px;
+}
 .d{
     width: 100%;
     height: 240px;
@@ -204,15 +247,18 @@
 }
 .accordion-section .panel-default .panel-title a {
     display: block;
-    font-style: italic;
     font-size: 30px;
+    color: #000;
+}
+.accordion-section .panel-default .panel-title a:hover {
+text-decoration: none !important;
 }
 .accordion-section .panel-default .panel-title a:after {
     font-family: 'FontAwesome';
     font-style: normal;
     font-size: 3rem;
     content: "\f106";
-    color: #00788c;
+   
     float: right;
     margin-top: -12px;
 }
@@ -267,7 +313,7 @@
       padding-top: 10px;
   }
   .ghe1{
-      padding-left: 70px;
+      padding-left: 35px;
   }
   .a11{
       padding: 0px;
@@ -320,7 +366,8 @@
   font-weight: 700;
 }
 .cd{
-  margin-bottom: 20px;
+  margin-bottom: 35px;
+  margin-top: 35px;
 }
 .cd1{
   margin-top: 40px;
@@ -350,6 +397,7 @@
     /* padding: 1px 38px 16px 16px; */
     text-decoration: none;
     text-align: left;
+    font-size: 13px;
 }
 .ghe341 span{
   font-size: 10px;
@@ -554,4 +602,18 @@ background: transparent;
 .icii{
   width: 38%;
 }
-
+.fos{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #003d5d;
+}
+.icp{
+  padding-left: 20px;
+  font-size: 14px;
+}
+.carb{
+  padding: 20px 20px 44px 20px;
+}
+.carb1{
+  padding: 20px 20px 68px 20px;
+}
