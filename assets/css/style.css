@@ -284,7 +284,7 @@ text-decoration: none !important;
   }
   .aa{
     width: 100%;
-    height: 480px;
+    height: 500px;
   }
   
     .g {
@@ -616,4 +616,7 @@ background: transparent;
 }
 .carb1{
   padding: 20px 20px 68px 20px;
+}
+.faz{
+  margin-bottom: 40px;
 }
