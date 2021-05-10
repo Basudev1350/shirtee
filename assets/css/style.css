@@ -204,10 +204,10 @@ body {
 .cfo::after {
   content: '';
   height: 2px;
-  width: 35%;
+  width: 38%;
   background: #6fa2b6;
   position: absolute;
-  left: calc(42% - 10%);
+  left: calc(10% - 10%);
   bottom: -5px;
   top: 35px;
 }
@@ -220,7 +220,7 @@ body {
   width: 30%;
   background: #6fa2b6;
   position: absolute;
-  left: calc(45% - 10%);
+  left: calc(10% - 10%);
   bottom: -5px;
   top: 35px;
 }
@@ -230,10 +230,23 @@ body {
 .cfo2::after {
   content: '';
   height: 2px;
-  width: 30%;
+  width: 28%;
   background: #6fa2b6;
   position: absolute;
-  left: calc(42% - 10%);
+  left: calc(10% - 10%);
+  bottom: -5px;
+  top: 35px;
+}
+.cfo3{
+  position:relative;
+}
+.cfo3::after {
+  content: '';
+  height: 2px;
+  width: 42%;
+  background: #6fa2b6;
+  position: absolute;
+  left: calc(10% - 10%);
   bottom: -5px;
   top: 35px;
 }
@@ -249,6 +262,8 @@ body {
     display: block;
     font-size: 30px;
     color: #000;
+    padding: 16px;
+    height: 45px;
 }
 .accordion-section .panel-default .panel-title a:hover {
 text-decoration: none !important;
@@ -303,8 +318,8 @@ text-decoration: none !important;
     width: 200px;
   }
   .page-footer{
-      background-color: #33647c;
-      padding-top: 25px;
+    background-color: #003D5B;
+      /* padding-top: 25px; */
   }
   .active a{
       color: #b3d0de !important;
@@ -603,9 +618,8 @@ background: transparent;
   width: 38%;
 }
 .fos{
-  border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px #003d5d;
+  padding: 25px 25px 60px 45px;
+  box-shadow: -96px -5px 166px -63px rgba(0,0,0,0.73);
 }
 .icp{
   padding-left: 20px;
@@ -619,4 +633,60 @@ background: transparent;
 }
 .faz{
   margin-bottom: 40px;
+}
+.fb1{
+  background-color: #D1495B;
+}
+.fb2{
+  background-color: #00798C;
+ 
+}
+.fb3{
+  background-color: #30638E;
+ 
+}
+.fb4{
+  background-color: #003D5B;
+}
+.copy{
+  height: 60px;
+    padding-top: 23px;
+    background-color: #003D5B;
+}
+.product{
+  margin-top: 30px;
+  
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 553px) {
+  .cce {
+    padding-top: 125px;
+    height: 100vh;
+    background-position: center;
+}
+  .cce1 {
+    padding-top: 125px;
+    height: 100vh;
+    background-position: center;
+}
+.cce2 {
+  padding-top: 125px;
+  height: 100vh;
+  background-position: center;
+}
+.fff1{
+  background-position: center;
+}
+.ghe h3 {
+  padding: 0px 44px 17px 0px !important;
+}
+.ghe341 {
+  float: initial !important;
+}
+.ghe341 p {
+  text-align: center !important;
+}
+.accordion-section .panel-default .panel-title a {
+  font-size: 18px !important;
+}
 }
